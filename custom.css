@@ -1,0 +1,14 @@
+body {
+    background: rgb(14, 166, 212);
+    margin-left: 15%;
+    padding: 23%;
+}
+.button input {
+    margin: 12px;
+    padding: 5%;
+
+}
+
+.input-box {
+    padding: 6%;
+}
