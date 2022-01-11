@@ -1,8 +1,10 @@
 const mongoose = require('mongoose');
 
 const SuperHeroImageSchema = new mongoose.Schema({
-    image : Object
+    image : {
+        type : Object
+     }
 })
 
-module.exports = HeroImage = mongoose.model('heroImages',SuperHeroImageSchema)
+module.exports = HeroImage = mongoose.model('heroImage',SuperHeroImageSchema)
 

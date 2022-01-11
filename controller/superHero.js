@@ -19,7 +19,7 @@ const sortHeros = async (keys) => {
         return n
 
     } catch (err) {
-        console.log(err);
+        console.error(err);
 
         return []
 
@@ -31,7 +31,7 @@ const sortHeros = async (keys) => {
 
 const getTheHero = (heros, keys) => {
 
-    console.log(heros, "hero ki length");
+    // console.log(heros, "hero ki length");
 
     if (heros.length) {
 

@@ -7,3 +7,4 @@ const HeroSchema = new mongoose.Schema({
 
 module.exports = Hero = mongoose.model('hero',HeroSchema)
 
+

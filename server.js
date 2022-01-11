@@ -9,14 +9,8 @@ app.use(cors())
 
 app.use(express.json({ extended: false }))
 
-app.use('/addsuper1', require('./route/image'))
-app.use('/getImage', require('./route/image'))
-app.use('/add', require('./route/image'))
-app.use('/update', require('./route/image'))
-app.use('/delete', require('./route/image'))
-app.use('/get', require('./route/image'))
-app.use('/getall', require('./route/image'))
-// app.use('/rsos', require('./route/image'))
+app.use("/add",require("./route/superHero"))
+app.use("/get",require("./route/superHero"))
 
 
 const PORT = process.env.PORT || 5001;
