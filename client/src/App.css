@@ -1,0 +1,13 @@
+.table-1{
+  border: solid;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+}
+.image-1{
+  height: 25rem;
+  width: 100%;
+}
+.add-image{
+  padding: 9%;
+}
